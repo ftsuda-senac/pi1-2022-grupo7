@@ -2,8 +2,67 @@
 
 package com.mycompany.sistemadeinicial;
 import java.util.Scanner;
+import java.util.Random;
 
 public class SistemaDeInicial {
+    static int playerATK(){
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Escolha seu ataque");
+        System.out.println("(1)Soco");
+        System.out.println("(2)Especial");
+        return input.nextInt();
+    }
+    static int inimigoATK(){
+        Random gerador = new Random();
+        return gerador.nextInt(2)+1;
+    }
+    
+    static void hpTela( int hpPlayer,  int hpInimigo){
+        System.out.println("===========");
+        System.out.println("HP PLayer" + hpPlayer);
+        System.out.println("HP Inimigo" + hpInimigo);
+        System.out.println("===========");
+    }
+    static void batalha(){
+        
+        int hpPlayer = 100;
+        int hpInimigo = 100;
+        int escolhaATK ;
+        while(hpPlayer >0 && hpInimigo >0){
+        escolhaATK = playerATK();
+        hpTela (hpPlayer, hpInimigo);
+        switch(escolhaATK){
+            case 1:
+                System.out.println("Você deu um soco!");
+                hpInimigo -=10;  
+                break;
+            case 2: 
+                System.out.println("Você deu um chute!");
+                hpInimigo -=15;
+                break;
+            default:
+                System.out.println("perdeu sua vez!");     
+        }
+        if(hpInimigo>0){
+            escolhaATK = inimigoATK();
+            switch(escolhaATK){
+                case 1:
+                System.out.println("O inimigo deu um soco!");
+                hpPlayer -=8;  
+                break;
+            case 2: 
+                System.out.println("Você deu um chute!");
+                hpPlayer -=12;
+                break;
+                    
+            } 
+        }
+        else{
+            System.out.println("Você venceu parabéns!");
+        }
+    }
+}
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
