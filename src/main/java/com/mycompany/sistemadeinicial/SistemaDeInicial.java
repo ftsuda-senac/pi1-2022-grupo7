@@ -1,4 +1,492 @@
 
+// luta 1
+
+    static int playerATKAdiversario1() {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Escolha seu ataque");
+        System.out.println("(1)estocada com a espada");
+        System.out.println("(2)golpe diagonal com espada");
+        System.out.println("(3)Soco com a manopla");
+        return input.nextInt();
+    }
+
+    static int inimigoATKAdiversario1() {
+        Random gerador = new Random();
+        return gerador.nextInt(3) + 1;
+    }
+
+    static void hpTelaAdiversario1(int hpPlayer, int hpInimigo) {
+        System.out.println("===========");
+        System.out.println("HP PLayer" + hpPlayer);
+        System.out.println("HP Adiversario1" + hpInimigo);
+        System.out.println("===========");
+    }
+
+    static void batalhaAdiversario1() {
+
+        int hpPlayer = 100;
+        int hpInimigo = 100;
+        int escolhaATK;
+        while (hpPlayer > 0 && hpInimigo > 0) {
+            escolhaATK = playerATKAdiversario1();
+            hpTelaAdiversario1(hpPlayer, hpInimigo);
+            switch (escolhaATK) {
+                case 1:
+                    System.out.println("Você deu uma estocada com a espada!");
+                    hpInimigo -= 35;
+                    break;
+                case 2:
+                    System.out.println("Você deu um Golpe diagonal com a espada!");
+                    hpInimigo -= 55;
+                    break;
+                case 3:
+                    System.out.println("Você deu um soco com a manopla!");
+                    hpInimigo -= 30;
+                default:
+                    System.out.println("Perdeu sua vez!");
+            }
+            if (hpInimigo > 0) {
+                escolhaATK = inimigoATKAdiversario1();
+                switch (escolhaATK) {
+                    case 1:
+                        System.out.println("O Adiversario deu um soco!");
+                        hpPlayer -= 25;
+                        break;
+                    case 2:
+                        System.out.println("O Adiversario te deu um chute!");
+                        hpPlayer -= 30;
+                        break;
+                    case 3:
+                        System.out.println("O Adiversario te deu um golpe com o bastão");
+                        hpPlayer -= 40;
+
+                }
+            } else {
+                System.out.println("Você venceu parabéns!");
+            }
+        }
+    }
+
+    // luta 2
+
+    static int playerATKAdiversario2() {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Escolha seu ataque");
+        System.out.println("(1)estocada com a espada");
+        System.out.println("(2)golpe diagonal com espada");
+        System.out.println("(3)Soco com a manopla");
+        return input.nextInt();
+    }
+
+    static int inimigoATKAdiversario2() {
+        Random gerador = new Random();
+        return gerador.nextInt(3) + 1;
+    }
+
+    static void hpTelaAdiversario2(int hpPlayer, int hpInimigo) {
+        System.out.println("===========");
+        System.out.println("HP PLayer" + hpPlayer);
+        System.out.println("HP Adiversario1" + hpInimigo);
+        System.out.println("===========");
+    }
+
+    static void batalhaAdiversario2() {
+
+        int hpPlayer = 100;
+        int hpInimigo = 100;
+        int escolhaATK;
+        while (hpPlayer > 0 && hpInimigo > 0) {
+            escolhaATK = playerATKAdiversario2();
+            hpTelaAdiversario2(hpPlayer, hpInimigo);
+            switch (escolhaATK) {
+                case 1:
+                    System.out.println("Você deu uma estocada com a espada!");
+                    hpInimigo -= 35;
+                    break;
+                case 2:
+                    System.out.println("Você deu um Golpe diagonal com a espada!");
+                    hpInimigo -= 55;
+                    break;
+                case 3:
+                    System.out.println("Você deu um soco com a manopla!");
+                    hpInimigo -= 30;
+                default:
+                    System.out.println("Perdeu sua vez!");
+            }
+            if (hpInimigo > 0) {
+                escolhaATK = inimigoATKAdiversario2();
+                switch (escolhaATK) {
+                    case 1:
+                        System.out.println("O Adiversario deu um soco!");
+                        hpPlayer -= 30;
+                        break;
+                    case 2:
+                        System.out.println("O Adiversario te deu um chute!");
+                        hpPlayer -= 35;
+                        break;
+                    case 3:
+                        System.out.println("O Adiversario te deu um golpe com a kusarigama");
+
+                }
+            } else {
+                System.out.println("Você venceu parabéns!");
+            }
+        }
+    }
+
+    // LUTA 3
+
+    static int playerATKAdiversario3() {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Escolha seu ataque");
+        System.out.println("(1)estocada com a espada");
+        System.out.println("(2)golpe diagonal com espada");
+        System.out.println("(3)Soco com a manopla");
+        return input.nextInt();
+    }
+
+    static int inimigoATKAdiversario3() {
+        Random gerador = new Random();
+        return gerador.nextInt(3) + 1;
+    }
+
+    static void hpTelaAdiversario3(int hpPlayer, int hpInimigo) {
+        System.out.println("===========");
+        System.out.println("HP PLayer" + hpPlayer);
+        System.out.println("HP Adiversario3" + hpInimigo);
+        System.out.println("===========");
+    }
+
+    static void batalhaAdiversario3() {
+
+        int hpPlayer = 100;
+        int hpInimigo = 100;
+        int escolhaATK;
+        while (hpPlayer > 0 && hpInimigo > 0) {
+            escolhaATK = playerATKAdiversario3();
+            hpTelaAdiversario3(hpPlayer, hpInimigo);
+            switch (escolhaATK) {
+                case 1:
+                    System.out.println("Você deu uma estocada com a espada!");
+                    hpInimigo -= 35;
+                    break;
+                case 2:
+                    System.out.println("Você deu um Golpe diagonal com a espada!");
+                    hpInimigo -= 55;
+                    break;
+                case 3:
+                    System.out.println("Você deu um soco com a manopla!");
+                    hpInimigo -= 30;
+                default:
+                    System.out.println("Perdeu sua vez!");
+            }
+            if (hpInimigo > 0) {
+                escolhaATK = inimigoATKAdiversario3();
+                switch (escolhaATK) {
+                    case 1:
+                        System.out.println("O Adiversario deu um soco!");
+                        hpPlayer -= 30;
+                        break;
+                    case 2:
+                        System.out.println("O Adiversario te deu um chute!");
+                        hpPlayer -= 35;
+                        break;
+                    case 3:
+                        System.out.println("O Adiversario te deu um golpe com a lança");
+                        hpPlayer -= 40;
+
+                }
+            } else {
+                System.out.println("Você venceu parabéns!");
+            }
+        }
+    }
+
+    //latu 
+
+    static int playerATKAdiversario4() {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Escolha seu ataque");
+        System.out.println("(1)estocada com a espada");
+        System.out.println("(2)golpe diagonal com espada");
+        System.out.println("(3)Soco com a manopla");
+        return input.nextInt();
+    }
+
+    static int inimigoATKAdiversario4() {
+        Random gerador = new Random();
+        return gerador.nextInt(3) + 1;
+    }
+
+    static void hpTelaAdiversario4(int hpPlayer, int hpInimigo) {
+        System.out.println("===========");
+        System.out.println("HP PLayer" + hpPlayer);
+        System.out.println("HP Adiversario3" + hpInimigo);
+        System.out.println("===========");
+    }
+
+    static void batalhaAdiversario4() {
+
+        int hpPlayer = 100;
+        int hpInimigo = 100;
+        int escolhaATK;
+        while (hpPlayer > 0 && hpInimigo > 0) {
+            escolhaATK = playerATKAdiversario4();
+            hpTelaAdiversario4(hpPlayer, hpInimigo);
+            switch (escolhaATK) {
+                case 1:
+                    System.out.println("Você deu uma estocada com a espada!");
+                    hpInimigo -= 35;
+                    break;
+                case 2:
+                    System.out.println("Você deu um Golpe diagonal com a espada!");
+                    hpInimigo -= 55;
+                    break;
+                case 3:
+                    System.out.println("Você deu um soco com a manopla!");
+                    hpInimigo -= 30;
+                default:
+                    System.out.println("Perdeu sua vez!");
+            }
+            if (hpInimigo > 0) {
+                escolhaATK = inimigoATKAdiversario4();
+                switch (escolhaATK) {
+                    case 1:
+                        System.out.println("O Adiversario deu um soco!");
+                        hpPlayer -= 30;
+                        break;
+                    case 2:
+                        System.out.println("O Adiversario te deu um chute!");
+                        hpPlayer -= 35;
+                        break;
+                    case 3:
+                        System.out.println("O Adiversario atirou uma flecha contrra você!");
+                        hpPlayer -= 40;
+
+                }
+            } else {
+                System.out.println("Você venceu parabéns!");
+            }
+        }
+    }
+
+    static int playerATKAdiversario5() {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Escolha seu ataque");
+        System.out.println("(1)estocada com a espada");
+        System.out.println("(2)golpe diagonal com espada");
+        System.out.println("(3)Soco com a manopla");
+        return input.nextInt();
+    }
+
+    static int inimigoATKAdiversario5() {
+        Random gerador = new Random();
+        return gerador.nextInt(3) + 1;
+    }
+
+    static void hpTelaAdiversario5(int hpPlayer, int hpInimigo) {
+        System.out.println("===========");
+        System.out.println("HP PLayer" + hpPlayer);
+        System.out.println("HP Adiversario3" + hpInimigo);
+        System.out.println("===========");
+    }
+
+    static void batalhaAdiversario5() {
+
+        int hpPlayer = 100;
+        int hpInimigo = 100;
+        int escolhaATK;
+        while (hpPlayer > 0 && hpInimigo > 0) {
+            escolhaATK = playerATKAdiversario5();
+            hpTelaAdiversario5(hpPlayer, hpInimigo);
+            switch (escolhaATK) {
+                case 1:
+                    System.out.println("Você deu uma estocada com a espada!");
+                    hpInimigo -= 35;
+                    break;
+                case 2:
+                    System.out.println("Você deu um Golpe diagonal com a espada!");
+                    hpInimigo -= 55;
+                    break;
+                case 3:
+                    System.out.println("Você deu um soco com a manopla!");
+                    hpInimigo -= 30;
+                default:
+                    System.out.println("Perdeu sua vez!");
+            }
+            if (hpInimigo > 0) {
+                escolhaATK = inimigoATKAdiversario5();
+                switch (escolhaATK) {
+                    case 1:
+                        System.out.println("O Adiversario deu um soco!");
+                        hpPlayer -= 30;
+                        break;
+                    case 2:
+                        System.out.println("O Adiversario te deu um chute!");
+                        hpPlayer -= 35;
+                        break;
+                    case 3:
+                        System.out.println("O Adiversario atirou uma flecha contrra você!");
+                        hpPlayer -= 40;
+
+                }
+            } else {
+                System.out.println("Você venceu parabéns!");
+            }
+        }
+    }
+
+    // luta 6
+
+    static int playerATKAdiversario6() {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Escolha seu ataque");
+        System.out.println("(1)estocada com a espada");
+        System.out.println("(2)golpe diagonal com espada");
+        System.out.println("(3)Soco com a manopla");
+        return input.nextInt();
+    }
+
+    static int inimigoATKAdiversario6() {
+        Random gerador = new Random();
+        return gerador.nextInt(3) + 1;
+    }
+
+    static void hpTelaAdiversario6(int hpPlayer, int hpInimigo) {
+        System.out.println("===========");
+        System.out.println("HP PLayer" + hpPlayer);
+        System.out.println("HP Adiversario3" + hpInimigo);
+        System.out.println("===========");
+    }
+
+    static void batalhaAdiversario6() {
+
+        int hpPlayer = 100;
+        int hpInimigo = 100;
+        int escolhaATK;
+        while (hpPlayer > 0 && hpInimigo > 0) {
+            escolhaATK = playerATKAdiversario6();
+            hpTelaAdiversario6(hpPlayer, hpInimigo);
+            switch (escolhaATK) {
+                case 1:
+                    System.out.println("Você deu uma estocada com a espada!");
+                    hpInimigo -= 35;
+                    break;
+                case 2:
+                    System.out.println("Você deu um Golpe diagonal com a espada!");
+                    hpInimigo -= 55;
+                    break;
+                case 3:
+                    System.out.println("Você deu um soco com a manopla!");
+                    hpInimigo -= 30;
+                default:
+                    System.out.println("Perdeu sua vez!");
+            }
+            if (hpInimigo > 0) {
+                escolhaATK = inimigoATKAdiversario6();
+                switch (escolhaATK) {
+                    case 1:
+                        System.out.println("O Adiversario deu um soco!");
+                        hpPlayer -= 30;
+                        break;
+                    case 2:
+                        System.out.println("O Adiversario te deu um chute!");
+                        hpPlayer -= 35;
+                        break;
+                    case 3:
+                        System.out.println("O Adiversario atirou uma flecha contrra você!");
+                        hpPlayer -= 40;
+
+                }
+            } else {
+                System.out.println("Você venceu parabéns!");
+            }
+        }
+    }
+
+    //luta 7
+
+    static int playerATKAdiversario7() {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Escolha seu ataque");
+        System.out.println("(1)estocada com a espada");
+        System.out.println("(2)golpe diagonal com espada");
+        System.out.println("(3)Soco com a manopla");
+        return input.nextInt();
+    }
+
+    static int inimigoATKAdiversario7() {
+        Random gerador = new Random();
+        return gerador.nextInt(3) + 1;
+    }
+
+    static void hpTelaAdiversario7(int hpPlayer, int hpInimigo) {
+        System.out.println("===========");
+        System.out.println("HP PLayer" + hpPlayer);
+        System.out.println("HP Adiversario3" + hpInimigo);
+        System.out.println("===========");
+    }
+
+    static void batalhaAdiversario7() {
+
+        int hpPlayer = 100;
+        int hpInimigo = 100;
+        int escolhaATK;
+        while (hpPlayer > 0 && hpInimigo > 0) {
+            escolhaATK = playerATKAdiversario7();
+            hpTelaAdiversario7(hpPlayer, hpInimigo);
+            switch (escolhaATK) {
+                case 1:
+                    System.out.println("Você deu uma estocada com a espada!");
+                    hpInimigo -= 35;
+                    break;
+                case 2:
+                    System.out.println("Você deu um Golpe diagonal com a espada!");
+                    hpInimigo -= 55;
+                    break;
+                case 3:
+                    System.out.println("Você deu um soco com a manopla!");
+                    hpInimigo -= 30;
+                default:
+                    System.out.println("Perdeu sua vez!");
+            }
+            if (hpInimigo > 0) {
+                escolhaATK = inimigoATKAdiversario7();
+                switch (escolhaATK) {
+                    case 1:
+                        System.out.println("O Adiversario deu um soco!");
+                        hpPlayer -= 30;
+                        break;
+                    case 2:
+                        System.out.println("O Adiversario te deu um chute!");
+                        hpPlayer -= 35;
+                        break;
+                    case 3:
+                        System.out.println("O Adiversario atirou uma flecha contrra você!");
+                        hpPlayer -= 40;
+
+                }
+            } else {
+                System.out.println("Você venceu parabéns!");
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
  // luta 1
 
     static int playerATKAdiversario1() {
@@ -675,6 +1163,63 @@ public class SistemaDeInicial {
                         "Você pega as manoplas de Phoenix e guarda com você para sempre lembra de seu amigo, \n você volta para a estação de trem e segue para seu objetivo principal  ");
                 System.out.println("Seu proximo destino é Cyber City");
                 System.out.println("O que será que te aguarda por lá?");
+             
+             //volta para o trem
+             
+          
+        System.out.println("Você está no trem indo para cyber city");
+        System.out.println("");
+        System.out.println("Você começa a escutar duas pessoas conversando sobre um coliseu em Cyber city ");
+        System.out.println("Pessoas do trem: No coliseu se você vencer seu adversario você pode pegar as armas deles, \n você tambem pode ganhar muito dinheiro lá e ainda tem um prêmio secreto para o vencedor do coliseu.");
+        System.out.println(nome + ": humm interesante, e eu bem que preciso de dinheiro, acho que vou dar uma passada nesse coliseu.");
+         
+        // coliseu 
+        
+        System.out.println("Narrador do coliseu: Sejam bem vindos ao coliseu de Cyber city!!!");
+        System.out.println("Narrador do coliseu: O que vocês querem ver?");
+        System.out.println("");
+        System.out.println("Plateia: SANGUE, SANGUE, SANGUE, SANGUE, SANGUE, SANGUE, SANGUE, SANGUE, SANGUE, SANGUE,!!!!! ");
+        System.out.println("");
+        System.out.println("Narrador do coliseu: O que vocês querem ver?");
+        System.out.println("");
+        System.out.println("Plateia: SANGUE, SANGUE, SANGUE, SANGUE, SANGUE, SANGUE, SANGUE, SANGUE, SANGUE, SANGUE,!!!!! ");
+        System.out.println("");
+        System.out.println("Narrador do coliseu: Para as pessoas que nunca pisaram no coliseu vou explicar as regras.");
+        System.out.println("");
+        System.out.println("Dois lutadores entram na arena e lutam até a morte, vale tudo para ganhar TUDO! \n O lutador que derrotar todos os outros lutadores sera o grande campeão!");
+        System.out.println("Narrador do coliseu: HAHAHAHAHA");
+        System.out.println("Narrador do coliseu: Agora chega de delongas e vamos a os combates");
+        System.out.println("");
+        batalhaAdiversario1();
+        System.out.println("");
+        System.out.println("Você está indo para a proxima batalha!");
+        System.out.println("");
+        batalhaAdiversario2();
+        System.out.println("");
+        System.out.println("Você está indo para a proxima batalha!");
+        System.out.println("");
+        batalhaAdiversario3();
+        System.out.println("");
+        System.out.println("Você está indo para a proxima batalha!");
+        System.out.println("");
+        batalhaAdiversario4();
+        System.out.println("");
+        System.out.println("Você está indo para a proxima batalha!");
+        System.out.println("");
+        batalhaAdiversario5();
+        System.out.println("");
+        System.out.println("Você está indo para a proxima batalha!");
+        System.out.println("");
+        batalhaAdiversario6();
+        System.out.println("");
+        System.out.println("Você está indo para a proxima batalha!");
+        System.out.println("");
+        batalhaAdiversario7();
+        System.out.println("");
+        System.out.println("Você está indo para a proxima batalha!");
+        System.out.println("");
+        System.out.println("Parabens! " + nome + " você é o grande campeão");
+    }
 
             }
 
