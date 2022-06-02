@@ -1,0 +1,200 @@
+SCENE 1
+
+
+	Você sai pela entrada principal da entrada e respira um ar fresco nunca sentido antes. Sem duvida. A cidade verde e realmente o Oasis do mundo futurista.
+	Mohammed. O guarda da equipe imperial de Qawha te da as boas vindas.
+
+		Mohammed: Olá! Bem vindo a Qawha, a grande cidade verde! Estava esperando por você
+		Opção 1: "Quem é você?"
+		Opção 2: "Olá! Poderia me dizer onde posso encontrar Aaliyah?"
+		Mohammed OP1: Ora, onde estão os meus modos? Meu nome e Mohammed! grande cavalheiro imperial da Qawha! Sou um enviado de Aaliyah. Ela esta a sua espera.
+		Mohammed OP2: Hm...Hoje e seu dia de sorte! Aaliyah me enviou para buscar você. Sou Mohammed, grande cavalheiro imperial de Qawha.
+
+		Opção 1: "Um cavalheiro? Voltamos ao medievo?".
+		Opção 2: "Não sabia que chamavam os tiras daqui de "cavalheiros".
+		Opção 3: "Hm...Legal. Poderia me levar até ela cavalheiro?".
+		Mohammed op1: Haha, digamos que as coisas por aqui são um pouco diferentes do resto do mundo. Mas vamos, te levarei até ela
+		Mohammed op2: Você se refere a policiais? Eles não existem por aqui. Nós fazemos a segurança da cidade desde que os países caíram. Mas vamos, 
+			te levarei até ela
+		Mohammed op3: Claro! Vamos, te levarei até ela.
+
+
+		Guarda1: EI! AONDE PENSA QUE VAI?? LADRÃO MISERAVEL
+		Opção1: "O que? Do que você está falando?"
+ 		Opção2: "QUE? MISERÁVEL É SUA MÃE!"
+    		Opção1: Guarda1: NÃO ADIANTA TENTAR FUGIR, TE PEGAMOS NO FLAGRA ROUBANDO! AGORA LIDE COM AS CONSEQUENCIAS!
+    		Opção2: Guarda1: COMO OUSA IMIGRANTE IMUNDO! VOU TE FAZER PAGAR POR ISSO!
+
+ --------------------------------------------------------------------------------------------BATALHA-----------------------------------------------------------------------------------------------------------
+		caso: Derrota
+			+=CONTINUAR SCENE3=+
+		caso: Vitória
+
+							+++++++++++++++++++++++++++++
+							+++++++++++++++++++++++++++++
+							++ CAFÉ PRINCIPAL DE QAWHA ++
+							+++++++++++++++++++++++++++++
+							+++++++++++++++++++++++++++++
+
+SCENE 2 
+
+	- "Bem vindo a Qawha estrangeiro!"
+	Você ouve uma voz feminina, ríspida. que se aproxima de você, e logo toma a forma de uma linda moça, nada condizente com o seu tom.
+	Aisha: Meu nome é Aisha, a segunda grande guerreira do império de Qawha, prazer.
+	Ela diz enquanto estende a mão em encontro a sua.
+
+	Aisha: Acredito que você esteja aqui por Aaliyah, ela te contatou. Aaliyah é uma grande amiga minha. Pediu para que aguardasse por você aqui
+	enquanto ela trata de alguns outros assuntos. AH, OLHA ELA ALI!
+	Aaliyah: Olá, bem vindo a Qawha. A nossa cidade está investindo em novos talentos pelo mundo. E um dos selecionados de Saint Valley
+	foi você. Gostaria de te mostrar a proposta de trabalho. Em um ambiente mais privativo. O que me diz?
+
+		Opção1: Acho que...Não é a melhor opção para mim nesse momento. Obrigado
+		ATENÇÃO. ESTA DECISÃO INTERFERE DIRETAMENTE NO FIM DO JOGO.
+		OP1: Aaliyah: Entendo...Lamento em ter que fazer isso. GUARDAS!!
+				  +=CONTINUAR SCENE3=+
+		Opção2: Claro! Aceito
+		Opção1: Aaliyah: Ótimo! Então peço que me siga junto aqueles dois bem ali.
+
+
+	Ela aponta para dois homens sentados em uma mesa na ponta do café.
+	Vocês se cumprimentam e acompanham a moça por algumas ruas a dentro da cidade. Tudo é muito limpo e organizado, 
+	não há carros, só transporte público. As poucas pessoas que se vê pelas ruas andam tranquilamente, com sorriso no rosto. 
+	Cumprimentando umas as outras como se o mundo ainda fosse bonito e nada tivesse acontecido.
+	Aaliyah: Chegamos.
+	A frente dela havia uma enorme estrutura quadrada de metal, se abrindo e fechando coma uma sanfona, que parecia mais 
+	ter vida própria do que realmente ser um prédio. Além de seu tamanho, você chutaria mais de 30 metros de altura. Como esperado.
+	Sendo descendentes de quem são, o mínimo esperado são estruturas megalomaníacas.
+
+	Aaliyah: Quero que façam o primeiro teste antes de lhes contar sobreo trabalho.
+	Aaliyah: Lá dentro a 3 guerreiros armados. Irão pra cima de qualquer um que entrar por essa sala. E só irão parar se for derrotados. Ou matarem quem estiver lá.	
+	Aliyah: Para provar suas habilidades, quero que entrem lá e derrotem os 3 guerreiros. Se conseguirem, passaremos para a próxima fase.
+	Caso queiram desistir, esse é o momento.
+
+		Desistir?
+		Sim: Sair
+		Não: Entrar
+		Opção1: Aaliyah: Então...Este o fim de vocês!
+			+=CONTINUAR SCENE3=+
+		Opção2: Aaliyah: Boa sorte a todos.
+
+-------------------------------------------------------------------------------BATALHA----------------------------------------------------------------------------------------------------------------
+
+		caso: Derrota - Morte
+		caso: Vitória
+
+SCENE 3  
+								+++++++++++++++++++++
+								+++++++++++++++++++++
+								+++PRISÃO DE QAWHA+++
+								+++++++++++++++++++++
+								+++++++++++++++++++++
+
+	você acorda e todas as suas coisas desapareceram. Qual o sentido disso tudo? Há algo muito estranho nessa cidade que não cheira nada bem.
+    	Para sair, é necessário desvendar o mistério.
+    	Opção1: Fracasso ao desvendar
+    	Morte
+    	Opção2: Sucesso aos desvendar
+    	Você recupera seus itens
+    	Na saída da cela você avista uma janela. Chegando próximo a mesma percebe que está acima das nuvens. O prédio é alto o suficiente para matar de queda até mesmo o homem com o maior nível de resistência.
+    	Nos corredores se ouve um rugido feroz de uma besta que se aproxima.
+    	//batalha//
+    	Opção1: Derrota
+    	Morte
+    	Opção2: Encontrar Aisha
+    	Aisha: jogador! Finalmente te achei! Não acredito que te trouxeram até aqui. Tudo está muito errado nessa situação toda. E a Aliyah... Eu deveria ter notado tudo isso antes! Foi tudo um plano. E eu descobri o que está acontecendo.
+    	Saber a história?
+        ( SIM NÃO)
+Opção1: Aaliyah: Eles estavam todos muito estranhos, não sou da guarda real da cidade mas ando em conjunto com cada um. E havia algo esquisito ultimamente. Eu ignorei, achei que era apenas impressão minha. Me arrependo imensamente disso.
+
+Aaliyah: Só percebi que era tarde demais quando entrei em um confronto com Mohammed. Ele estava prendendo um inocente, um homem de Ziuns. Um viciado. Ele era um dos nomes selecionados para o programa URSS, União de Reestabelecimento Social Singelo criado com o objetivo de proporcionar oportunidades de entrada de cidadãos de outras cidades para a nossa. O programa que você faz parte.
+
+Aaliyah: Mohammed me explicou que o plano por trás do programa na verdade era outro. Um plano doentio.
+
+
+Scene 4
+
+Um estrondo nos corredores do andar chama a atenção de vocês.
+
+Aaliyah: Você ouviu isso?
+
+A toda velocidade, uma serpente de tamanho sobrenatural surge em seu caminho. Capaz de engolir um rinoceronte com facilidade, e com cara de poucos amigos.
+
+//Batalha//
+
+    Opção1: Derrota
+    Morte
+    Opção2: Terminar o dialogo com Aisha
+    Aisha: Merda...Essas coisas de Roudini estão começando a nos achar.
+    Opção1: O que são essas criaturas?
+    Opção2: Não sabia que haviam palavrões nesse jogo.
+    Aisha: Calma, eu vou explicar tudo.
+    Aisha: A muito tempo atrás quando o oriente médio se tornou um deserto mais seco que o Saara. Os nossos descendentes acreditavam ser o fim do nosso povo.
+    Não havia mais petróleo em nosso continente, água potável e nem qualquer forma de energia que pudesse manter o padrão de uma sociedade moderna. Uma das últimas mulheres que ainda caminhavam através da areia seca, clamando a Deus por salvação, encontrara uma pedra vermelha. Mais brilhante que a luz do sol.
+    Aisha: Ao tocar a pedra, a mulher sentiu algo nunca imaginado antes. Uma energia, forte e poderosa. E uma necessidade incontrolável de consumir carne humana. O nome dela: Roudini
+    Aisha: Roudini escondeu esse segredo durante anos. Estudando como usar a energia daquela pedra da maneira correta. Apenas com o objetivo de ajudar nosso povo. Ela tinha grandes esperanças. Mas nunca imaginou que poderia salvar a nação.
+
+Opção1: Isso tá ficando estranho...
+
+Opção2: Da pra ir direto ao ponto?
+
+Aisha: Estou quase lá.
+
+Aisha: Roudini, de alguma forma, inventou uma máquina que conseguia sugar toda a energia daquela pedra. Era a solução dos problemas do nosso povo. Mas as vontades da pedra ainda deviam ser atendidas na criação de energia.
+
+Aisha: A maquina exigia um componente físico humano vermelho no estado solido.
+
+Opção1: Você quer dizer... Ór
+gãos?
+
+Aisha: Sim. Órgãos. E café
+
+Opção1: ...Café?
+
+Aisha: É, café. Esse é o nome da cidade. Qawha. Não tente entender o java.
+
+Aisha: O ponto é: Roudini jamais faria mal ao seu povo, nem ao menos um cidadão oriental poderia sofrer dessa dor. Então, ela criou o projeto União de Reestabelecimento Social Singelo. Convocando imigrantes de outras sociedades para os testes. Em troca. Ela vende parte dessa energia para as cidades ocidentais.
+
+Aisha: Foi um sucesso absoluto. Roudini conseguiu reconstruir o Oriente e agora somos o povo humano que melhor passou pela crise climática. Mas isso está errado. E precisamos impedir.
+
+Aisha: Há recursos suficientes em Qawha que extinguiriam a pobreza da humanidade. Não há pobres aqui. Eu preciso da sua ajuda jogador. Nós precisamos. As pessoas da cidade não sabem sobre isso, elas precisam saber. Precisamos impedir.
+
+Aceitar ajudar Qawha?
+
+Opção1: Não, ir embora.
+
+// continuação3
+
+Opção2: Sim, ir atrás de Roudini
+
+Aisha: Ótimo! Precisamos encontrar ela o quanto antes. essas duas criaturas que enfrentamos são as bestas dela. Mãe Roudini provavelmente está 10 andares acima. No topo. Vamos, rápido.
+
+Scene 5
+
+                ===BASE DA MÃE ROUDINI===
+Um grito ensurdecedor faz com quem vocês parem de correr andar a dentro.
+
+Você vê entrar pela porta uma mulher, de roupas negras e adornos dourados por todo o corpo. Ela tem o dobro da altura de um cidadão comum e possui um tipo de mascara feita de ouro que cobre seus olhos e testa. Em suas mãos há olhos tatuados e sinais de serpentes.
+
+Ela te cumprimenta com a cabeça, em silêncio. Na sua mão esquerda há uma espada dourada, na direita um rubi vermelho, em formato de coração.
+
+Opção1: Pretende se render? Ótimo. Talvez assim passe o resto da sua vida somente presa e não morta.
+
+Opção2: Infelizmente não poderemos aceitar nenhuma redenção de alguém com crimes de guerra. Seu império acaba aqui Roudini.
+
+Opção3: Não adianta tentar se render não! Vai levar a surra da tua vida.
+
+Mãe Roudini: Rendição? haha...Só queria lhes dar uma última escolha. Com qual das duas querem morrer?
+
+*Você escolherá a arma de Roudini*
+
+Opção1: Coração Roudini
+
+Opção2: Espada Dourada de Qawha
+
+//Batalha//
+
+Opção1: Derrota
+
+morte
+
+Opção2: Roudini: Devo admitir. Este é meu fim. Mas não me arrependo, tudo que fiz, fiz pela cidade. Fiz pelo meu povo.
